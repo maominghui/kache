@@ -22,7 +22,7 @@ Kache的每个实例是一个缓存空间不同的缓存空间互相独立。开
 Kache提供的所有静态方法，都有对应Kache的实例方法。
 
 添加缓存
-把ID为“123456”的一个数据“ThisIsADemoData.”存入缓存，1小时候过期。
+把ID为“123456”的一个数据“ThisIsADemoData.”存入缓存，1小时后过期。
 
 ```
 [Kache setValue:@"ThisIsADemoData" forKey:@"123456" expiredAfter:3600];
